@@ -4,6 +4,8 @@ Bare register based software examples for Apollo3Blue published at http://www.fe
 
 See LICENSE.md for disclaimer
 
+![Logo](/images/apollo3examples.png)
+
 ## Apollo3Blue Software Examples Overview
 | Name | Peripherals | Description | Download (www.feeu.com) |
 | --- | --- | --- | --- |
