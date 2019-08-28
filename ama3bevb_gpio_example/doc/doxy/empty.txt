@@ -1,0 +1,1 @@
+this file is used, so folder will be not removed, also if empty
