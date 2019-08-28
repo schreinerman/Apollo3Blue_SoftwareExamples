@@ -2,7 +2,7 @@
 
 Bare register based software examples for Apollo3Blue published at http://www.feeu.com/apollo3blue
 
-See LICENSE.md for disclaimer
+See [LICENSE.md](LICENSE.md) for disclaimer
 
 ![Logo](/images/apollo3examples.png)
 
