@@ -1,0 +1,227 @@
+###############################################################################
+#
+# IAR ELF Linker V7.40.1.8447/W32 for ARM                 03/Apr/2019  08:31:39
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_ctimer_ext_counter_v10_cpy\example\iar\output\release\exe\ama3bevb_ctimer_ext_counter.out
+#    Map file     =  
+#        C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_ctimer_ext_counter_v10_cpy\example\iar\output\release\list\ama3bevb_ctimer_ext_counter.map
+#    Command line =  
+#        C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_ctimer_ext_counter_v10_cpy\example\iar\output\release\obj\main.o
+#        C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_ctimer_ext_counter_v10_cpy\example\iar\output\release\obj\startup_apollo3.o
+#        C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_ctimer_ext_counter_v10_cpy\example\iar\output\release\obj\system_apollo3.o
+#        -o
+#        C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_ctimer_ext_counter_v10_cpy\example\iar\output\release\exe\ama3bevb_ctimer_ext_counter.out
+#        --map
+#        C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_ctimer_ext_counter_v10_cpy\example\iar\output\release\list\ama3bevb_ctimer_ext_counter.map
+#        --config
+#        C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_ctimer_ext_counter_v10_cpy\example\iar\config\ama3b1kk-kcr_rom.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x0000c000 { ro section .intvec };
+"P1":  place in [from 0x0000c000 to 0x000fffff] { ro };
+"P2":  place in [from 0x10000000 to 0x1005ffef] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address   Size  Object
+  -------            ----        -------   ----  ------
+"A1":                                      0xc0
+  .intvec            ro code  0x0000c000   0xc0  startup_apollo3.o [1]
+                            - 0x0000c0c0   0xc0
+
+"P1":                                     0x454
+  .text              ro code  0x0000c0c0  0x268  main.o [1]
+  .text              ro code  0x0000c328   0x48  system_apollo3.o [1]
+  .text              ro code  0x0000c370   0x2c  copy_init3.o [5]
+  .text              ro code  0x0000c39c   0x28  data_init.o [5]
+  .text              ro code  0x0000c3c4   0x22  fpinit_M.o [4]
+  .iar.init_table    const    0x0000c3e8   0x14  - Linker created -
+  .text              ro code  0x0000c3fc   0x20  startup_apollo3.o [1]
+  .text              ro code  0x0000c41c   0x1a  cmain.o [5]
+  .text              ro code  0x0000c436    0x4  low_level_init.o [3]
+  .text              ro code  0x0000c43a    0x4  exit.o [3]
+  .text              ro code  0x0000c440    0xa  cexit.o [5]
+  .text              ro code  0x0000c44c   0x14  exit.o [6]
+  .text              ro code  0x0000c460    0xc  cstartup_M.o [5]
+  .text              ro code  0x0000c46c    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c470    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c474    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c478    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c47c    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c480    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c484    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c488    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c48c    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c490    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c494    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c498    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c49c    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4a0    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4a4    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4a8    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4ac    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4b0    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4b4    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4b8    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4bc    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4c0    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4c4    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4c8    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4cc    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4d0    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4d4    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4d8    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4dc    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4e0    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4e4    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4e8    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4ec    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4f0    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4f4    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4f8    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c4fc    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c500    0x4  startup_apollo3.o [1]
+  .text              ro code  0x0000c504    0x4  startup_apollo3.o [1]
+  .rodata            const    0x0000c508    0x0  copy_init3.o [5]
+  Initializer bytes  const    0x0000c508    0xc  <for P2 s0>
+                            - 0x0000c514  0x454
+
+"P2":                                     0x410
+  P2 s0                       0x10000000    0xc  <Init block>
+    .data            inited   0x10000000    0x4  system_apollo3.o [1]
+    .bss             inited   0x10000004    0x4  main.o [1]
+    .data            inited   0x10000008    0x1  main.o [1]
+  CSTACK                      0x10000010  0x400  <Block>
+    CSTACK           uninit   0x10000010  0x400  <Block tail>
+                            - 0x10000410  0x410
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0xc (133% of destination):
+          0x0000c508   0xc
+    1 destination range, total size 0x9:
+          0x10000000   0x9
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module             ro code  ro data  rw data
+    ------             -------  -------  -------
+C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_ctimer_ext_counter_v10_cpy\example\iar\output\release\obj: [1]
+    main.o                 616        5        5
+    startup_apollo3.o      380
+    system_apollo3.o        72        4        4
+    --------------------------------------------
+    Total:               1 068        9        9
+
+command line: [2]
+    --------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                   4
+    low_level_init.o         4
+    --------------------------------------------
+    Total:                   8
+
+m7M_tls.a: [4]
+    fpinit_M.o              34
+    --------------------------------------------
+    Total:                  34
+
+rt7M_tl.a: [5]
+    cexit.o                 10
+    cmain.o                 26
+    copy_init3.o            44
+    cstartup_M.o            12
+    data_init.o             40
+    --------------------------------------------
+    Total:                 132
+
+shb_l.a: [6]
+    exit.o                  20
+    --------------------------------------------
+    Total:                  20
+
+    Gaps                     4        2
+    Linker created                   23    1 024
+------------------------------------------------
+    Grand Total:         1 266       34    1 033
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x0000c3e8          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0000c3fc          --   Gb  - Linker created -
+?main                   0x0000c41d         Code  Gb  cmain.o [5]
+CSTACK$$Base            0x10000010          --   Gb  - Linker created -
+CSTACK$$Limit           0x10000410          --   Gb  - Linker created -
+CTIMER_IRQHandler       0x0000c15f   0x36  Code  Gb  main.o [1]
+NVIC_ClearPendingIRQ    0x0000c0e9   0x14  Code  Lc  main.o [1]
+NVIC_DisableIRQ         0x0000c0d5   0x14  Code  Lc  main.o [1]
+NVIC_EnableIRQ          0x0000c0c1   0x14  Code  Lc  main.o [1]
+NVIC_SetPriority        0x0000c0fd   0x26  Code  Lc  main.o [1]
+Region$$Table$$Base     0x0000c3e8          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0000c3fc          --   Gb  - Linker created -
+SysTick_Config          0x0000c123   0x30  Code  Lc  main.o [1]
+SysTick_Handler         0x0000c153    0xc  Code  Gb  main.o [1]
+SystemCoreClock         0x10000000    0x4  Data  Gb  system_apollo3.o [1]
+SystemCoreClockUpdate   0x0000c329   0x16  Code  Gb  system_apollo3.o [1]
+SystemInit              0x0000c33f   0x20  Code  Gb  system_apollo3.o [1]
+__cmain                 0x0000c41d         Code  Gb  cmain.o [5]
+__exit                  0x0000c44d   0x14  Code  Gb  exit.o [6]
+__iar_copy_init3        0x0000c371   0x2c  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x0000c39d   0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x0000c3c5         Code  Gb  fpinit_M.o [4]
+__iar_program_start     0x0000c461         Code  Gb  cstartup_M.o [5]
+__low_level_init        0x0000c437    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x0000c000         Data  Gb  startup_apollo3.o [1]
+_call_main              0x0000c429         Code  Gb  cmain.o [5]
+_exit                   0x0000c441         Code  Gb  cexit.o [5]
+_main                   0x0000c433         Code  Gb  cmain.o [5]
+exit                    0x0000c43b    0x4  Code  Gb  exit.o [3]
+main                    0x0000c195  0x13e  Code  Gb  main.o [1]
+u32Counter              0x10000004    0x4  Data  Lc  main.o [1]
+u8Duty                  0x10000008    0x1  Data  Lc  main.o [1]
+
+
+[1] = C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_ctimer_ext_counter_v10_cpy\example\iar\output\release\obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  1 266 bytes of readonly  code memory
+     34 bytes of readonly  data memory
+  1 033 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

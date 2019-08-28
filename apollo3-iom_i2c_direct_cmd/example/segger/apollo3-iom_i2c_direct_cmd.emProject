@@ -1,0 +1,144 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="apollo3-iom_i2c_direct_cmd" target="8" version="2">
+  <project Name="apollo3-iom_i2c_direct_cmd">
+    <configuration
+      Name="Common"
+      arm_architecture="v7EM"
+      arm_core_type="Cortex-M4"
+      arm_endian="Little"
+      arm_fp_abi="Hard"
+      arm_fpu_type="FPv4-SP-D16"
+      arm_simulator_memory_simulation_parameter="RX 0000C000,000F4000,FFFFFFFF;RWX 10000000,0005FFF0,CDCDCDCD"
+      arm_target_device_name="AMA3B1KK-KBR"
+      arm_target_interface_type="SWD"
+      debug_start_from_entry_point_symbol="Yes"
+      debug_target_connection="J-Link"
+      linker_section_placement_file="$(StudioDir)/targets/Cortex_M/flash_placement.xml"
+      linker_section_placements_segments="FLASH RX 0x0000C000 0x000F4000;SRAM RWX 0x10000000 0x0005FFF0"
+      project_directory=""
+      project_type="Executable" />
+    <folder Name="Internal Files">
+        <file file_name="$(StudioDir)/source/thumb_crt0.s" />
+    </folder>
+    <configuration
+    Name="Internal"
+    c_user_include_directories="$(PackagesDir)/CMSIS_4/CMSIS/Include" />
+    <configuration
+      Name="AMA3B1KK-KBR_Release"
+      arm_architecture="v7EM"
+      arm_core_type="Cortex-M4"
+      arm_endian="Little"
+      arm_fp_abi="Hard"
+      arm_fpu_type="FPv4-SP-D16"
+      JLinkExcludeFlashCacheRange="0x0,0x0000C000"
+      arm_simulator_memory_simulation_parameter="RX 0000C000,000F4000,FFFFFFFF;RWX 10000000,0005FFF0,CDCDCDCD"
+      arm_target_device_name="AMA3B1KK-KBR"
+      build_intermediate_directory="output/release/obj"
+      build_output_directory="output/release/exe"
+      arm_linker_heap_size="1024"
+      arm_linker_process_stack_size="1024"
+      arm_linker_stack_size="1024"
+      c_preprocessor_definitions="APOLLO3_1024=1;APOLLO3_1024=1;"
+      c_user_include_directories=";./../../common;./../../example/source;./../../example/source/config;./../../library;./../../library/highlevel;./../../library/middleware;./../../library/lowlevel;./../../cmsis/include"
+      external_build_file_name="$(ProjectDir)/output/release/exe/apollo3-iom_i2c_direct_cmd.elf"
+      external_load_address="0x0000C000"
+      external_load_file_type="Detect"
+      debug_register_definition_file="../../cmsis/svd/APOLLO3.svd"
+      linker_section_placements_segments="FLASH RX 0x0000C000 0x000F4000;SRAM RWX 0x10000000 0x0005FFF0" />
+
+    <configuration
+      Name="AMA3B1KK-KBR_Debug"
+      arm_architecture="v7EM"
+      arm_core_type="Cortex-M4"
+      arm_endian="Little"
+      arm_fp_abi="Hard"
+      arm_fpu_type="FPv4-SP-D16"
+      arm_linker_heap_size="1024"
+      arm_linker_process_stack_size="1024"
+      arm_linker_stack_size="1024"
+      arm_simulator_memory_simulation_parameter="RX 1002FFF8,0002FFF8,FFFFFFFF;RWX 10000000,0002FFF8,CDCDCDCD"
+      arm_target_device_name="AMA3B1KK-KBR"
+      build_intermediate_directory="output/debug/obj"
+      build_output_directory="output/debug/exe"
+      c_preprocessor_definitions="APOLLO3_1024=1;APOLLO3_1024=1;"
+      c_user_include_directories=";./../../common;./../../example/source;./../../example/source/config;./../../library;./../../library/highlevel;./../../library/middleware;./../../library/lowlevel;./../../cmsis/include"
+      external_build_file_name="$(ProjectDir)/output/debug/exe/apollo3-iom_i2c_direct_cmd.elf"
+      external_load_address="0x1002FFF8"
+      external_load_file_type="Detect"
+      debug_register_definition_file="../../cmsis/svd/APOLLO3.svd"
+      linker_section_placements_segments="FLASH RX 0x1002FFF8 0x0002FFF8;SRAM RWX 0x10000000 0x0002FFF8" />
+
+    <configuration
+      Name="AMA3B1KK-KCR_Release"
+      arm_architecture="v7EM"
+      arm_core_type="Cortex-M4"
+      arm_endian="Little"
+      arm_fp_abi="Hard"
+      arm_fpu_type="FPv4-SP-D16"
+      JLinkExcludeFlashCacheRange="0x0,0x0000C000"
+      arm_simulator_memory_simulation_parameter="RX 0000C000,000F4000,FFFFFFFF;RWX 10000000,0005FFF0,CDCDCDCD"
+      arm_target_device_name="AMA3B1KK-KCR"
+      build_intermediate_directory="output/release/obj"
+      build_output_directory="output/release/exe"
+      arm_linker_heap_size="1024"
+      arm_linker_process_stack_size="1024"
+      arm_linker_stack_size="1024"
+      c_preprocessor_definitions="APOLLO3_1024=1;APOLLO3_1024=1;"
+      c_user_include_directories=";./../../common;./../../example/source;./../../example/source/config;./../../library;./../../library/highlevel;./../../library/middleware;./../../library/lowlevel;./../../cmsis/include"
+      external_build_file_name="$(ProjectDir)/output/release/exe/apollo3-iom_i2c_direct_cmd.elf"
+      external_load_address="0x0000C000"
+      external_load_file_type="Detect"
+      debug_register_definition_file="../../cmsis/svd/APOLLO3.svd"
+      linker_section_placements_segments="FLASH RX 0x0000C000 0x000F4000;SRAM RWX 0x10000000 0x0005FFF0" />
+
+    <configuration
+      Name="AMA3B1KK-KCR_Debug"
+      arm_architecture="v7EM"
+      arm_core_type="Cortex-M4"
+      arm_endian="Little"
+      arm_fp_abi="Hard"
+      arm_fpu_type="FPv4-SP-D16"
+      arm_linker_heap_size="1024"
+      arm_linker_process_stack_size="1024"
+      arm_linker_stack_size="1024"
+      arm_simulator_memory_simulation_parameter="RX 1002FFF8,0002FFF8,FFFFFFFF;RWX 10000000,0002FFF8,CDCDCDCD"
+      arm_target_device_name="AMA3B1KK-KCR"
+      build_intermediate_directory="output/debug/obj"
+      build_output_directory="output/debug/exe"
+      c_preprocessor_definitions="APOLLO3_1024=1;APOLLO3_1024=1;"
+      c_user_include_directories=";./../../common;./../../example/source;./../../example/source/config;./../../library;./../../library/highlevel;./../../library/middleware;./../../library/lowlevel;./../../cmsis/include"
+      external_build_file_name="$(ProjectDir)/output/debug/exe/apollo3-iom_i2c_direct_cmd.elf"
+      external_load_address="0x1002FFF8"
+      external_load_file_type="Detect"
+      debug_register_definition_file="../../cmsis/svd/APOLLO3.svd"
+      linker_section_placements_segments="FLASH RX 0x1002FFF8 0x0002FFF8;SRAM RWX 0x10000000 0x0002FFF8" />
+
+    <folder Name="common">
+        <file file_name="../../common/system_apollo3.c" />
+    </folder>
+    <folder Name="config" />
+    <folder Name="lowlevel" />
+    <folder Name="source">
+        <file file_name="./../source/main.c" />
+        <file file_name="startup_apollo3.s" />
+        <file file_name="./../../Readme.txt" />
+    </folder>
+  </project>
+  <configuration Name="Internal" hidden="Yes" />
+  <configuration
+      Name="AMA3B1KK-KBR_Release"
+
+      inherited_configurations="Internal" />
+  <configuration
+      Name="AMA3B1KK-KBR_Debug"
+
+      inherited_configurations="Internal" />
+  <configuration
+      Name="AMA3B1KK-KCR_Release"
+
+      inherited_configurations="Internal" />
+  <configuration
+      Name="AMA3B1KK-KCR_Debug"
+
+      inherited_configurations="Internal" />
+</solution>

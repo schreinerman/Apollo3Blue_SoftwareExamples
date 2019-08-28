@@ -1,0 +1,79 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="apollo3-ctimer_pattern_i2s_sgtl5000" radix="16" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="apollo3-ctimer_pattern_i2s_sgtl5000" radix="16" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="apollo3-ctimer_pattern_i2s_sgtl5000" radix="16" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="apollo3-ctimer_pattern_i2s_sgtl5000" radix="16" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="apollo3-ctimer_pattern_i2s_sgtl5000"/>
+  <ProjectSessionItem path="apollo3-ctimer_pattern_i2s_sgtl5000;apollo3-ctimer_pattern_i2s_sgtl5000"/>
+  <ProjectSessionItem path="apollo3-ctimer_pattern_i2s_sgtl5000;apollo3-ctimer_pattern_i2s_sgtl5000;config"/>
+  <ProjectSessionItem path="apollo3-ctimer_pattern_i2s_sgtl5000;apollo3-ctimer_pattern_i2s_sgtl5000;Internal Files"/>
+  <ProjectSessionItem path="apollo3-ctimer_pattern_i2s_sgtl5000;apollo3-ctimer_pattern_i2s_sgtl5000;lowlevel"/>
+  <ProjectSessionItem path="apollo3-ctimer_pattern_i2s_sgtl5000;apollo3-ctimer_pattern_i2s_sgtl5000;source"/>
+ </Project>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CTIMER/TMR0;CTIMER/CMPRA0;CTIMER/CMPRB0;CTIMER/CTRL0;CTIMER/CMPRAUXA0;CTIMER/CMPRAUXB0;CTIMER/AUX0;CTIMER/TMR1;CTIMER/CMPRA1;CTIMER/CMPRB1;CTIMER/CTRL1;CTIMER/CMPRAUXA1;CTIMER/CMPRAUXB1;CTIMER/AUX1;CTIMER/TMR2;CTIMER/CMPRA2;CTIMER/CMPRB2;CTIMER/CTRL2;CTIMER/CMPRAUXA2;CTIMER/CMPRAUXB2;CTIMER/AUX2;CTIMER/TMR3;CTIMER/CMPRA3;CTIMER/CMPRB3;CTIMER/CTRL3;CTIMER/CMPRAUXA3;CTIMER/CMPRAUXB3;CTIMER/AUX3;CTIMER/TMR4;CTIMER/CMPRA4;CTIMER/CMPRB4;CTIMER/CTRL4;CTIMER/CMPRAUXA4;CTIMER/CMPRAUXB4;CTIMER/AUX4;CTIMER/TMR5;CTIMER/CMPRA5;CTIMER/CMPRB5;CTIMER/CTRL5;CTIMER/CMPRAUXA5;CTIMER/CMPRAUXB5;CTIMER/AUX5;CTIMER/TMR6;CTIMER/CMPRA6;CTIMER/CMPRB6;CTIMER/CTRL6;CTIMER/CMPRAUXA6;CTIMER/CMPRAUXB6;CTIMER/AUX6;CTIMER/TMR7;CTIMER/CMPRA7;CTIMER/CMPRB7;CTIMER/CTRL7;CTIMER/CMPRAUXA7;CTIMER/CMPRAUXB7;CTIMER/AUX7;CTIMER/GLOBEN;CTIMER/OUTCFG0;CTIMER/OUTCFG1;CTIMER/OUTCFG2;CTIMER/OUTCFG3;CTIMER/INCFG;CTIMER/STCFG;CTIMER/STTMR;CTIMER/CAPTURECONTROL;CTIMER/SCMPR0;CTIMER/SCMPR1;CTIMER/SCMPR2;CTIMER/SCMPR3;CTIMER/SCMPR4;CTIMER/SCMPR5;CTIMER/SCMPR6;CTIMER/SCMPR7;CTIMER/SCAPT0;CTIMER/SCAPT1;CTIMER/SCAPT2;CTIMER/SCAPT3;CTIMER/SNVR0;CTIMER/SNVR1;CTIMER/SNVR2;CTIMER/SNVR3;CTIMER/INTEN;CTIMER/INTCLR;CTIMER/INTSET;CTIMER/STMINTEN;CTIMER/STMINTSTAT;CTIMER/STMINTCLR;CTIMER/STMINTSET;CTIMER/INTSTAT;PWRCTRL/SUPPLYSRC;PWRCTRL/SUPPLYSTATUS;PWRCTRL/DEVPWREN;PWRCTRL/MEMPWDINSLEEP;PWRCTRL/MEMPWREN;PWRCTRL/MEMPWRSTATUS;PWRCTRL/DEVPWRSTATUS;PWRCTRL/SRAMCTRL;PWRCTRL/ADCSTATUS;PWRCTRL/MISC;PWRCTRL/DEVPWREVENTEN;PWRCTRL/MEMPWREVENTEN" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context;CTIMER;CTIMER/TMR0;CTIMER/CTRL0;CTIMER/CMPRAUXA0;CTIMER/TMR1;CTIMER/CMPRA1;CTIMER/CTRL1;CTIMER/AUX1;CTIMER/INTEN;CTIMER/INTSTAT;PWRCTRL" name="apollo3-ctimer_pattern_i2s_sgtl5000" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="apollo3-ctimer_pattern_i2s_sgtl5000" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="apollo3-ctimer_pattern_i2s_sgtl5000" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="apollo3-ctimer_pattern_i2s_sgtl5000" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Twice a Second">
+   <Watchpoint numelements="0" expression="pu8Data" evalMode="1" name="pu8Data" radix="16" linenumber="798" filename="../source/main.c" list=""/>
+   <Watchpoint numelements="0" expression=" pu8Data[1]" evalMode="0" name=" pu8Data[1]" radix="-1" linenumber="798" filename="../source/main.c" list=""/>
+   <Watchpoint numelements="256" expression="au8Data" evalMode="2" name="au8Data" radix="-1" linenumber="795" filename="../source/main.c" list=""/>
+   <Watchpoint numelements="0" expression="u16Data" evalMode="0" name="u16Data" radix="-1" linenumber="599" filename="../source/main.c" list=""/>
+   <Watchpoint numelements="0" expression="u32DataPos" evalMode="0" name="u32DataPos" radix="-1" linenumber="558" filename="../source/main.c" list=""/>
+   <Watchpoint numelements="0" expression="u32Counter" evalMode="0" name="u32Counter" radix="-1" linenumber="195" filename="../source/main.c" list=""/>
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="88" y="36" useTextEdit="1" useBinaryEdit="0" left="0" path="../source/main.c" selected="1" top="773" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="3568" useTextEdit="1" useBinaryEdit="0" left="0" path="../../common/apollo3.h" selected="0" top="3558" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="44" useTextEdit="1" useBinaryEdit="0" left="0" path="startup_apollo3.s" selected="0" top="21" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="51" y="81" useTextEdit="1" useBinaryEdit="0" left="0" path="../source/config/RTE_Device.h" selected="0" top="66" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="2795" useTextEdit="1" useBinaryEdit="0" left="0" path="../../library/lowlevel/apolloiom.c" selected="0" top="27" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="531" useTextEdit="1" useBinaryEdit="0" left="0" path="../../library/lowlevel/apolloiom.h" selected="0" top="512" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="40323" useTextEdit="1" useBinaryEdit="0" left="0" path="../source/sample.c" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="51" useTextEdit="1" useBinaryEdit="0" left="0" path="../../Readme.txt" selected="0" top="27" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="apollo3-ctimer_pattern_i2s_sgtl5000" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="AMA3B1KK-KBR_Release" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/mschre/Documents/Projects/Customer/112Motion/I2S/apollo3-ctimer_pattern_i2s_sgtl5000-v10/example/source" debugSearchPath="" autoConnectCapabilities="3711"/>
+</session>

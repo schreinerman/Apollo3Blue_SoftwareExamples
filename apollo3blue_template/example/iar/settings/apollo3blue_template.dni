@@ -1,0 +1,27 @@
+[PlDriver]
+MemConfigValue=$PROJ_DIR$\..\..\cmsis\svd\APOLLO3.svd
+FirstRun=0
+[PlCacheRanges]
+CustomRanges0=0 49152 999424 1 0
+CustomRangesText0=Code
+CustomRanges1=0 268435456 393200 0 0
+CustomRangesText1=SRAM
+CustomRanges2=0 570425344 33554432 0 0
+CustomRangesText2=bit-banding
+CustomRanges3=0 1073741824 33554432 2 0
+CustomRangesText3=Peripheral
+CustomRanges4=0 1107296256 33554432 2 0
+CustomRangesText4=bit-banding
+CustomRanges5=0 3758096384 536870912 2 0
+CustomRangesText5=Private peripheral
+[Jet]
+JetConnSerialNo=
+JetConnFoundProbes=
+[DebugChecksum]
+Checksum=
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0

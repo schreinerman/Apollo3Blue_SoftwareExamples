@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Manuel Schreiner, Fujitsu, LIC=CRMLR-4SHFM-A0FT1-A5FYY-RM735-GL9TJ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.26.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      Segger\JL2CM3.dll V2.99.31.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_gpio_irq_example_v10\example\arm\ama3bevb_gpio_irq_example.uvprojx
+Project File Date:  04/03/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'AMA3B1KK-KBR_Release'
+assembling startup_apollo3.s...
+compiling main.c...
+..\..\common\apollo3.h(14867): warning:  #1134-D: literal treated as "long long"
+    CLKGEN_CLOCKENSTAT_CLOCKENSTAT_IOMSTRIFC0_CLKEN = -2147483648,/*!< IOMSTRIFC0_CLKEN : Clock enable for the IOMSTRIFC0        */
+..\..\common\apollo3.h(14890): warning:  #1134-D: literal treated as "long long"
+    CLKGEN_CLOCKEN2STAT_CLOCKEN2STAT_FORCEHFRC = -2147483648,/*!< FORCEHFRC : HFRC is forced on Status.                          */
+..\..\common\apollo3.h(14905): warning:  #1134-D: literal treated as "long long"
+    CLKGEN_CLOCKEN3STAT_CLOCKEN3STAT_flashclk_en = -2147483648,/*!< flashclk_en : Flash clk is enabled [31]                      */
+..\source\main.c: 3 warnings, 0 errors
+compiling system_apollo3.c...
+..\..\common\apollo3.h(14867): warning:  #1134-D: literal treated as "long long"
+    CLKGEN_CLOCKENSTAT_CLOCKENSTAT_IOMSTRIFC0_CLKEN = -2147483648,/*!< IOMSTRIFC0_CLKEN : Clock enable for the IOMSTRIFC0        */
+..\..\common\apollo3.h(14890): warning:  #1134-D: literal treated as "long long"
+    CLKGEN_CLOCKEN2STAT_CLOCKEN2STAT_FORCEHFRC = -2147483648,/*!< FORCEHFRC : HFRC is forced on Status.                          */
+..\..\common\apollo3.h(14905): warning:  #1134-D: literal treated as "long long"
+    CLKGEN_CLOCKEN3STAT_CLOCKEN3STAT_flashclk_en = -2147483648,/*!< flashclk_en : Flash clk is enabled [31]                      */
+..\..\common\system_apollo3.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=1068 RO-data=224 RW-data=12 ZI-data=3172  
+FromELF: creating hex file...
+".\output\release\ama3bevb_gpio_irq_example.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: AmbiqMicro
+                http://s3.asia.ambiqmicro.com/pack/AmbiqMicro.Apollo_DFP.1.1.0.pack
+                AmbiqMicro.Apollo_DFP.1.1.0
+                Ambiq Micro Apollo Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_AMA3B1KK-KBR_Release
+  C:\Keil_v5\ARM\PACK\AmbiqMicro\Apollo_DFP\1.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

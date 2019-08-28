@@ -1,0 +1,23 @@
+Dependencies for Project 'ama3bevb_pwm_example', Target 'AMA3B1KK-KBR_Release': (DO NOT MODIFY !)
+F (..\..\common\system_apollo3.c)(0x5A5FB5AE)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\common -I ..\..\example\source -I ..\..\example\source\config -I ..\..\library -I ..\..\library\lowlevel -I ..\..\library\middleware -I ..\..\library\highlevel-I.\RTE\_AMA3B1KK-KBR_Release-IC:\Keil_v5\ARM\PACK\AmbiqMicro\Apollo_DFP\1.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DAPOLLO3_1024 -DAPOLLO3_1024="1" -DAPOLLO3_1024="1"-o .\output\release\system_apollo3.o --omf_browse .\output\release\system_apollo3.crf --depend .\output\release\system_apollo3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (..\..\common\system_apollo3.h)(0x5B1AD235)
+I (..\..\common\apollo3.h)(0x5B6E090A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x570F99A8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F99A8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F99A8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x570F99A8)
+F (..\source\main.c)(0x5CA4529F)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\..\common -I ..\..\example\source -I ..\..\example\source\config -I ..\..\library -I ..\..\library\lowlevel -I ..\..\library\middleware -I ..\..\library\highlevel-I.\RTE\_AMA3B1KK-KBR_Release-IC:\Keil_v5\ARM\PACK\AmbiqMicro\Apollo_DFP\1.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DAPOLLO3_1024 -DAPOLLO3_1024="1" -DAPOLLO3_1024="1"-o .\output\release\main.o --omf_browse .\output\release\main.crf --depend .\output\release\main.d)
+I (..\source\mcu.h)(0x5C93A01A)
+I (..\..\example\source\config\RTE_Device.h)(0x5C93A01A)
+I (..\..\common\apollo3.h)(0x5B6E090A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x570F99A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x570F99A8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x570F99A8)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x570F99A8)
+I (..\..\common\system_apollo3.h)(0x5B1AD235)
+I (..\..\common\base_types.h)(0x5C93A01A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F3DAC)
+F (..\..\Readme.txt)(0x5CA451CB)()
+F (.\startup_apollo3.s)(0x5C93A01A)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_AMA3B1KK-KBR_Release-IC:\Keil_v5\ARM\PACK\AmbiqMicro\Apollo_DFP\1.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 526" --pd "APOLLO3_1024 SETA 1"-o .\output\release\startup_apollo3.o --depend .\output\release\startup_apollo3.d)

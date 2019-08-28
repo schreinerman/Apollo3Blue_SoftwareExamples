@@ -1,0 +1,7 @@
+--cpu Cortex-M4.fp
+".\output\release\system_apollo3.o"
+".\output\release\main.o"
+".\output\release\startup_apollo3.o"
+--strict --scatter ".\output\release\ama3bevb_gpio_example.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info
+--list ".\output\release\ama3bevb_gpio_example.map" -o .\output\release\ama3bevb_gpio_example.axf

@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.40.1\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.40.1\arm\bin\armjlink.dll" 
+
+"C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_uart_example_v10_cpy\Readme.txt" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.40.1\arm\bin\armbat.dll" 
+
+--macro "C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_uart_example_v10_cpy\example\iar\config\reset.mac" 
+
+--flash_loader "C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_uart_example_v10_cpy\example\iar\config\flashloader\FlashLoader.board" 
+
+
+
+

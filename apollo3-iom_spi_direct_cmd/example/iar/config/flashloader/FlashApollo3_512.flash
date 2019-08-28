@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<flash_device>
+  <exe>$PROJ_DIR$\config\flashloader\FlashApollo3_RAM256K.out</exe>
+  <page>4</page>
+  <block>58 0x2000</block>
+  <flash_base>0x0000C000</flash_base>
+  <aggregate>1</aggregate>
+</flash_device>

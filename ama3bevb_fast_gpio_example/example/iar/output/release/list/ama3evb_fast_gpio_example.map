@@ -1,0 +1,245 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.3.193/W32 for ARM                  17/Apr/2019  10:40:55
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_fast_gpio_example-v10\example\iar\output\release\exe\ama3evb_fast_gpio_example.out
+#    Map file     =  
+#        C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_fast_gpio_example-v10\example\iar\output\release\list\ama3evb_fast_gpio_example.map
+#    Command line =  
+#        -f C:\Users\mschre\AppData\Local\Temp\EW376C.tmp
+#        (C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_fast_gpio_example-v10\example\iar\output\release\obj\main.o
+#        C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_fast_gpio_example-v10\example\iar\output\release\obj\startup_apollo3.o
+#        C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_fast_gpio_example-v10\example\iar\output\release\obj\system_apollo3.o
+#        --no_out_extension -o
+#        C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_fast_gpio_example-v10\example\iar\output\release\exe\ama3evb_fast_gpio_example.out
+#        --map
+#        C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_fast_gpio_example-v10\example\iar\output\release\list\ama3evb_fast_gpio_example.map
+#        --config
+#        C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_fast_gpio_example-v10\example\iar\config\ama3b1kk-kcr_rom.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0xc000 { ro section .intvec };
+"P1":  place in [from 0xc000 to 0xf'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x1000'0000 to 0x1005'ffef] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address   Size  Object
+  -------            ----         -------   ----  ------
+"A0":                                       0xc0
+  .intvec            ro code       0xc000   0xc0  startup_apollo3.o [1]
+                                 - 0xc0c0   0xc0
+
+"P1":                                      0x280
+  .text              ro code       0xc0c0   0xa8  main.o [1]
+  .text              ro code       0xc168   0x30  system_apollo3.o [1]
+  .text              ro code       0xc198   0x2c  copy_init3.o [4]
+  .text              ro code       0xc1c4   0x28  data_init.o [4]
+  .text              ro code       0xc1ec   0x22  fpinit_M.o [3]
+  .iar.init_table    const         0xc210   0x14  - Linker created -
+  .text              ro code       0xc224   0x20  startup_apollo3.o [1]
+  .text              ro code       0xc244   0x1e  cmain.o [4]
+  .text              ro code       0xc262    0x4  low_level_init.o [2]
+  .text              ro code       0xc266    0x4  exit.o [2]
+  .text              ro code       0xc26c    0xa  cexit.o [4]
+  .text              ro code       0xc278   0x14  exit.o [5]
+  .text              ro code       0xc28c    0xc  cstartup_M.o [4]
+  .text              ro code       0xc298    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc29c    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2a0    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2a4    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2a8    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2ac    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2b0    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2b4    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2b8    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2bc    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2c0    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2c4    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2c8    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2cc    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2d0    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2d4    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2d8    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2dc    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2e0    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2e4    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2e8    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2ec    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2f0    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2f4    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2f8    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc2fc    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc300    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc304    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc308    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc30c    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc310    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc314    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc318    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc31c    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc320    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc324    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc328    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc32c    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc330    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc334    0x4  startup_apollo3.o [1]
+  .text              ro code       0xc338    0x4  startup_apollo3.o [1]
+  Initializer bytes  const         0xc33c    0x4  <for P2-1>
+  .rodata            const         0xc340    0x0  copy_init3.o [4]
+                                 - 0xc340  0x280
+
+"P2", part 1 of 2:                           0x4
+  P2-1                        0x1000'0000    0x4  <Init block>
+    .data            inited   0x1000'0000    0x4  system_apollo3.o [1]
+                            - 0x1000'0004    0x4
+
+"P2", part 2 of 2:                         0x400
+  CSTACK                      0x1000'0008  0x400  <Block>
+    CSTACK           uninit   0x1000'0008  0x400  <Block tail>
+                            - 0x1000'0408  0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0xc340     0xf'ffff  0xf'3cc0
+  0x1000'0004  0x1000'0007       0x4
+  0x1000'0408  0x1005'ffef  0x5'fbe8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x4:
+               0xc33c   0x4
+    1 destination range, total size 0x4:
+          0x1000'0000   0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module             ro code  ro data  rw data
+    ------             -------  -------  -------
+command line/config:
+    --------------------------------------------
+    Total:
+
+C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_fast_gpio_example-v10\example\iar\output\release\obj: [1]
+    main.o                 168
+    startup_apollo3.o      388
+    system_apollo3.o        48        4        4
+    --------------------------------------------
+    Total:                 604        4        4
+
+dl7M_tln.a: [2]
+    exit.o                   4
+    low_level_init.o         4
+    --------------------------------------------
+    Total:                   8
+
+m7M_tls.a: [3]
+    fpinit_M.o              34
+    --------------------------------------------
+    Total:                  34
+
+rt7M_tl.a: [4]
+    cexit.o                 10
+    cmain.o                 30
+    copy_init3.o            44
+    cstartup_M.o            12
+    data_init.o             40
+    --------------------------------------------
+    Total:                 136
+
+shb_l.a: [5]
+    exit.o                  20
+    --------------------------------------------
+    Total:                  20
+
+    Gaps                     4        2
+    Linker created                   20    1 024
+------------------------------------------------
+    Grand Total:           806       26    1 028
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base        0xc210         --   Gb  - Linker created -
+.iar.init_table$$Limit       0xc224         --   Gb  - Linker created -
+?main                        0xc245        Code  Gb  cmain.o [4]
+ApolloSysctrl_EnableCache
+                             0xc0c1  0x12  Code  Gb  main.o [1]
+CSTACK$$Base            0x1000'0008         --   Gb  - Linker created -
+CSTACK$$Limit           0x1000'0408         --   Gb  - Linker created -
+Region$$Table$$Base          0xc210         --   Gb  - Linker created -
+Region$$Table$$Limit         0xc224         --   Gb  - Linker created -
+SystemCoreClock         0x1000'0000   0x4  Data  Gb  system_apollo3.o [1]
+SystemInit                   0xc169  0x1c  Code  Gb  system_apollo3.o [1]
+__cmain                      0xc245        Code  Gb  cmain.o [4]
+__exit                       0xc279  0x14  Code  Gb  exit.o [5]
+__iar_copy_init3             0xc199  0x2c  Code  Gb  copy_init3.o [4]
+__iar_data_init3             0xc1c5  0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp               0xc1ed        Code  Gb  fpinit_M.o [3]
+__iar_program_start          0xc28d        Code  Gb  cstartup_M.o [4]
+__low_level_init             0xc263   0x4  Code  Gb  low_level_init.o [2]
+__vector_table               0xc000        Data  Gb  startup_apollo3.o [1]
+_call_main                   0xc251        Code  Gb  cmain.o [4]
+_exit                        0xc26d        Code  Gb  cexit.o [4]
+_main                        0xc25f        Code  Gb  cmain.o [4]
+exit                         0xc267   0x4  Code  Gb  exit.o [2]
+main                         0xc0d3  0x76  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\mschre\Documents\Projects\Apollo3\sw_examples\ama3bevb_fast_gpio_example-v10\example\iar\output\release\obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+    806 bytes of readonly  code memory
+     26 bytes of readonly  data memory
+  1 028 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
