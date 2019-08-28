@@ -6,6 +6,16 @@ See LICENSE.md for disclaimer
 
 ![Logo](/images/apollo3examples.png)
 
+## Software downloads having support for following toolchains / IDEs:
+
+|       IDE          | Manufacturer | Download                                                                                                                 | Windows | Linux | MacOS |
+|--------------------|--------------|--------------------------------------------------------------------------------------------------------------------------|---------|-------|-------|
+| Embedded Studio    |    Segger    | [Link](https://www.segger.com/products/development-tools/embedded-studio/)                                               |    x    |   x   |   x   |
+|     uVision        |    Keil/ARM  | [Link](http://www2.keil.com/mdk5)                                                                                        |    x    |       |       |
+| Embedded Workbench |      IAR     | [Link](https://www.iar.com/iar-embedded-workbench/#!?architecture=Arm)                                                   |    x    |       |       |
+|     WinIDEA        |    iSystem   | [Link](https://www.isystem.com/products/winidea-ide-debug-and-trace-tool.html)                                           |    x    |       |       |
+|     Makefile       |      GNU     | [Link](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads) |    x    |   x   |   x   |
+
 ## Apollo3Blue Software Examples Overview
 | Name | Peripherals | Description | Download (www.feeu.com) |
 | --- | --- | --- | --- |
