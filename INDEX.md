@@ -18,3 +18,5 @@
 | Apollo3Blue I2C example | IOM(I2C)  | Example for using Apollo3s IOM as I2C in DMA mode | [apollo3-iom_i2c_dma-v10.zip](https://www.fujitsu.com/uk/imagesgig5/apollo3-iom_i2c_dma-v10_tcm23-4541413_tcm23-2750236-32.zip) |
 | Apollo3Blue SPI example | IOM(SPI)  | Example for using Apollo3s IOM as SPI in direct command mode | [apollo3-iom_spi_direct_cmd-v10.zip](https://www.fujitsu.com/uk/imagesgig5/apollo3-iom_spi_direct_cmd-v10_tcm23-4511912_tcm23-2750236-32.zip) |
 | Apollo3Blue SPI example | IOM(SPI)  | Example for using Apollo3s IOM as SPI in DMA mode | [apollo3-iom_spi_dma-v10.zip](https://www.fujitsu.com/uk/imagesgig5/apollo3-iom_spi_dma-v10_tcm23-4541423_tcm23-2750236-32.zip) |
+| Apollo3Blue STIMER example | STIMER  | The STIMER can be used as a kind of hardware enabled scheduler in ultra-low-power | at feeu.com soon (available via github) |
+| Apollo3Blue WDT (watchdog) example | WDT  | This example demonstrate how to use the integrated watchdog | at feeu.com soon (available via github) |
