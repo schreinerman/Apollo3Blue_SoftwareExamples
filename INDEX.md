@@ -9,6 +9,8 @@
 | Apollo3Blue PWM example | CTIMER(PWM)  | Apollo3Blue CMSIS bare-metal PWM example | [ama3bevb_pwm_example-v10.zip](https://www.fujitsu.com/uk/Images/ama3bevb_pwm_example-v10_tcm23-4325358.zip) |
 | Apollo3Blue UART example | UART  | Apollo3Blue CMSIS bare-metal UART example | [ama3bevb_uart_example-v10.zip](https://www.fujitsu.com/uk/Images/ama3bevb_uart_example-v10_tcm23-4325359.zip) |
 | Apollo3Blue ADC example | ADC  | Apollo3Blue bare metal ADC example | at feeu.com soon (available via github) |
+| Apollo3Blue ADC example | ADC(IRQ)  | Apollo3Blue bare metal ADC example using interrupts | at feeu.com soon (available via github) |
+| Apollo3Blue ADC example | ADC(IRQ) CTIMER(A3)  | Apollo3Blue bare metal ADC example using interrupts and CTIMER A3 as trigger for the ADC scan | at feeu.com soon (available via github) |
 | Apollo3Blue clock generation | CLKGEN  | The example generates a 12MHz clock by HFRC divided by 4 setting | at feeu.com soon (available via github) |
 | Apollo3Blue CTIMER pattern generator example | CTIMER(PATTERN)  | This example for Apollo3Blue generates a 64-bit pre-defined pattern at GPIO 12 in hardware only by use of the CTIMER pattern generator feature | [apollo3-ctimer_pattern_generation-v10.zip](https://www.fujitsu.com/uk/imagesgig5/apollo3-ctimer_pattern_generation-v10_tcm23-4511909_tcm23-2750236-32.zip) |
 | Apollo3Blue I2S output example | CTIMER(PATTERN)  | This example demonstrates with use of STGL5000 how to generate I2S audio-output by use of two timer with one timer configured as pattern generator | [apollo3-ctimer_pattern_i2s_sgtl5000-v10.zip](https://www.fujitsu.com/uk/imagesgig5/apollo3-ctimer_pattern_i2s_sgtl5000-v10_tcm23-4511910_tcm23-2750236-32.zip) |
