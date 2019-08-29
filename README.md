@@ -4,6 +4,8 @@ Bare register based software examples for Apollo3Blue published at http://www.fe
 
 See [LICENSE.md](LICENSE.md) for disclaimer
 
+Found some issue? Write an email to ambiq_info.feeu@de.fujitsu.com
+
 ![Logo](/images/apollo3examples.png)
 
 ## Software downloads having support for following toolchains / IDEs:
