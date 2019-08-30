@@ -36,8 +36,8 @@ so agrees to indemnify Fujitsu against all liability.
 ================================================================================
 History
 ** Date        Ver       Initials          Description
- **   - 2019-08-16  V1.0 Manuel Schreiner  First Version
-
+**   - 2019-08-16  V1.0 Manuel Schreiner  First Version
+**   - 2019-08-30  V1.1  MSc             Startup for IAR corrected
 
 Supported toolchain versions
 

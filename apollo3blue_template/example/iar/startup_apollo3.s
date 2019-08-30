@@ -131,6 +131,12 @@ Reset_Handler
                 ORR R1, R1, #(0xF << 20)         ; Set bits 20-23 to enable CP10 and CP11 coprocessors
                 STR R1, [R0]                     ; Write back the modified value to the CPACR
 
+                LDR.W    R0, =__vector_table     
+                LDR.W    R1,=0x1FFFFF80          ; AND __vector_table with 0x1FFFFF80         
+                ANDS     R0,R0,R1                ; AND __vector_table with 0x1FFFFF80
+                LDR.W    R1, =0xE000ED08         ; Load SCB->VTOR Address
+                STR      R0,[R1]                 ; Store new vector table offset
+
                 LDR     R0, =SystemInit
                 BLX     R0
                 LDR     R0, =__iar_program_start
