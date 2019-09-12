@@ -41,7 +41,7 @@ so agrees to indemnify Fujitsu against all liability.
  **  SYS_MCLK   <-     GPIO7        (Master Clock)
  **  I2S_SCLK    ->    GPIO25       (I2S Bit Clock)
  **  I2S_LRCLK   ->    GPIO13       (I2S Word-Select Clock)
- **  I2S_DIN    <-     GPIO25       (I2S Data)  
+ **  I2S_DIN    <-     GPIO12       (I2S Data)  
  **  CTRL_DATA  <->    GPIO9        (I2C SDA)
  **  CTRL_CLK   <->    GPIO8        (I2C SCL)
  **
@@ -53,7 +53,7 @@ so agrees to indemnify Fujitsu against all liability.
  **                 
  **        PAD25                                A0IN    --------------------
  **  BCLK  ___________________________________________|CLK                 |
- **                                                   |                    |  A0OUT    PAD25
+ **                                                   |                    |  A0OUT    PAD12
  **                                                   |     CTIMER A0  OUT |________________  DOUT
  **                                                   |                    |
  **                                                  _|TRIGGER             |
@@ -72,6 +72,7 @@ so agrees to indemnify Fujitsu against all liability.
  **
  ** History:
  **   - 2019-08-01 Manuel Schreiner First Version
+ **   - 2019-09-12  V1.2  MSc             Fixed wrong I2S_DOUT descriptionto PAD12
 
  *****************************************************************************/
 #define __MAIN_C__

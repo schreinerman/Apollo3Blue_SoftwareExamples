@@ -38,6 +38,7 @@ History
 ** Date        Ver       Initials          Description
 **   - 2019-03-21  V1.0  MSc  Automatic Created
 **   - 2019-08-30  V1.1  MSc             Startup for IAR corrected
+**   - 2019-09-12  V1.2  MSc             Fixed wrong I2S_DOUT descriptionto PAD12
 
 Supported toolchain versions
 
@@ -56,7 +57,7 @@ I2S audio-output by use of two timer with one timer configured as pattern genera
  SYS_MCLK   <-     GPIO7        (Master Clock)
  I2S_SCLK    ->    GPIO25       (I2S Bit Clock)
  I2S_LRCLK   ->    GPIO13       (I2S Word-Select Clock)
- I2S_DIN    <-     GPIO25       (I2S Data)  
+ I2S_DIN    <-     GPIO12       (I2S Data)  
  CTRL_DATA  <->    GPIO9        (I2C SDA)
  CTRL_CLK   <->    GPIO8        (I2C SCL)
  
@@ -68,7 +69,7 @@ I2S audio-output by use of two timer with one timer configured as pattern genera
                 
        PAD25                                A0IN    --------------------
  BCLK  ___________________________________________|CLK                 |
-                                                  |                    |  A0OUT    PAD25
+                                                  |                    |  A0OUT    PAD12
                                                   |     CTIMER A0  OUT |________________  DOUT
                                                   |                    |
                                                  _|TRIGGER             |
